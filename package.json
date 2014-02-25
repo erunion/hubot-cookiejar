@@ -1,0 +1,25 @@
+{
+  "name": "hubot-cookiejar",
+  "version": "0.0.1",
+  "author": {
+    "name": "Jon Ursenbach",
+    "email": "jon@ursenba.ch"
+  },
+  "description": "A Hubot library for plugins to store items into a cookie jar.",
+  "keywords": [
+    "github",
+    "hubot",
+    "cookiejar",
+    "plugin"
+  ],
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jonursenbach/hubot-cookiejar.git"
+  },
+  "main": "./src/cookiejar"
+}
