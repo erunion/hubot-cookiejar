@@ -47,3 +47,12 @@ Pull an array out of the cookie jar containing every item and its sum. The array
 ```
 cookies = cookiejar.summary()
 ```
+
+Output:
+
+```
+[ { item: 'chocolatechip', total: 6 },
+  { item: 'oatmeal', total: 5 },
+  { item: 'snickerdoodle', total: 3 },
+  { item: 'sugar', total: 2 } ]
+```
