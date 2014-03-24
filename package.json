@@ -12,14 +12,25 @@
     "cookiejar",
     "plugin"
   ],
-  "licenses": [
-    {
-      "type": "MIT"
-    }
-  ],
+  "licenses": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/jonursenbach/hubot-cookiejar.git"
   },
-  "main": "./src/cookiejar"
+  "bugs": {
+    "url": "https://github.com/tinyspeck/hubot-slack/issues",
+    "email": "help@tinyspeck.com"
+  },
+  "devDependencies": {
+    "should": "^3.2.0-beta1",
+    "hubot": "^2.7.2",
+    "mocha": "^1.18.2"
+  },
+  "main": "./src/cookiejar",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "mocha --compilers coffee:coffee-script/register --reporter spec"
+  }
 }
